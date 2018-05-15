@@ -1,0 +1,82 @@
+.th {
+	text-align:center;
+}
+
+.table{
+	margin-top: 20px;
+}
+
+.form-control{
+	margin-bottom: 5px;
+}
+
+.selecionado {
+	background-color: yellow;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+.topo {
+	margin-top: 70px;
+	background-color: white;
+	border-radius: 30px;
+}
+
+.body {
+	background-color: #000000;
+}
+
+
+.texto_branco {
+	color: #ffffff;
+}
+
+.alinhar_direita{
+	align-items: right;
+}
+
+.selecionado {
+	background-color: #808080;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+
+.centraliza_texto {
+	text-align: center;
+}
+
+.menu {
+	padding:10px;
+	width:100%;
+	background-color: #ffffff;
+}
+
+.menu_ul {
+	padding:0;
+	list-style:none;
+	overflow:auto;
+	float: right;
+	margin:0 auto;
+}
+
+.icone_selecionado{
+	color: #00FF00;
+}
+
+.jumbotron_login {
+	width: 400px;
+	text-align: center;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.background_preto {
+	background-color: black;
+}

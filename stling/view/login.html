@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="jumbotron_login">
+		<img class="centraliza_texto" src="../img/logo_s.jpg" width="200" height="200">
+		<h1 class="centraliza_texto">Login</h1>
+		<h3 class="centraliza_texto">Seja Bem Vindo</h3>
+		<form name="formLogin">
+			<input class="form-control" name="email" type="email" ng-model="usuario.email" placeholder="Email" ng-required="true">
+
+			<input class="form-control top_margim_elementos" type="password" name="password" ng-model="usuario.senha" placeholder="Senha"
+			 ng-required="true" ng-minlength="6">
+
+		</form>
+		<button class="btn btn-primary btn-block top_margim_elementos" ng-click="login(usuario)" ng-disabled="formLogin.$invalid">Entrar</button>
+		<br>
+		<div ng-show="formLogin.email.$dirty" ng-messages="formLogin.email.$error">
+			<div ng-message="required" class="alert alert-danger">
+				<p>Por favor preencha o campo email</p>
+			</div>
+			<div ng-message="email" class="alert alert-danger">
+				<p>O campo email deve ter o formato email@email.com</p>
+			</div>
+		</div>
+		<div ng-show="formLogin.password.$dirty" ng-messages="formLogin.password.$error">
+			<div ng-message="required" class="alert alert-danger">
+				<p>Por favor preencha o campo senha</p>
+			</div>
+
+		</div>
+
+		<div ng-show="erro" class="alert alert-danger">
+			<p>Ops! Erro ao realizar login!</p>
+		</div>
+
+	</div>
+</div>
