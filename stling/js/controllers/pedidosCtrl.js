@@ -62,11 +62,6 @@ angular.module('stling').controller('pedidosCtrl', function ($scope, clientes, v
 		});
 	};
 
-	$scope.ordenarPor = function (campo) {
-		$scope.criterioDeOrdenacao = campo;
-		$scope.direcaoDaOrdenacao = !$scope.direcaoDaOrdenacao;
-	};
-
 	$scope.editarPedido = function (pedido) {
 		$scope.pedido = pedido;
 		$scope.listaProdutosPedido = pedidosProdutosAPI.getItensPedido(pedido.id)
