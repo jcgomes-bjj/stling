@@ -1,6 +1,4 @@
 # stling
-
-
 ***** DOCUMENTAÇÃO *****
 
 -utilizado htt-server para o server front-end (http-server -a localhost -p 8000 -c-1)
